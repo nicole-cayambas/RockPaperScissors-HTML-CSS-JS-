@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+  
+#result {
+    height: 20vh;
+}
+  
+.game {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+  
+.game button{
+    border: 2px solid black;
+    background-color: white;
+    padding: 20px;
+    font-size: 16px;
+    margin: 0 20vw;
+}
+  
+.game button:active {
+    background-color: black;
+    color: white;
+}
+  
+  #result {
+    transition: 0.3s;
+  }
